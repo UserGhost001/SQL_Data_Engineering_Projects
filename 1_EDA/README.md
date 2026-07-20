@@ -42,6 +42,14 @@ By querying across these interconnected tables, I extracted insights about skill
 - 📦 **Version Control:** Git/GitHub for versioned SQL scripts
 
 ## 📂 Repository Structure
+```
+1_EDA/
+├── 01_top_demanded_skills.sql    # Demand analysis query
+├── 02_top_paying_skills.sql      # Salary analysis query
+├── 03_optimal_skills.sql         # Combined demande/salary optimization
+└── README.md                     # You are here
+```
+
 
 ## 📝 Analysis Overview
 ### Query Structure
