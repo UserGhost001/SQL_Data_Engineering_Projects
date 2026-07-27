@@ -28,7 +28,7 @@ Raw job posting data arrives as flat CSV files in Google Cloud Storage—not str
 - ☁️ Storage: Google Cloud Storage for source CSV files
 
 # 📂 Repository Structure
-
+```
 2_DW_Mart_Build                      
 ├── 01_create_tables_dw.sql          # Star schema DDL 
 ├── 02_load_schema_dw.sql            # GCS data extraction & loading
@@ -39,6 +39,8 @@ Raw job posting data arrives as flat CSV files in Google Cloud Storage—not str
 ├── 07_create_company_mart.sql       # Company hiring mart (optional)
 ├── README.md                        # You are here 
 └── build_dw_marts.sql               # Master SQL build script
+```
+
 
 # 🏗️ Pipeline Architecture
 ![pipeline_architecture](https://github.com/lukebarousse/SQL_Data_Engineering_Course/raw/main/Resources/images/1_2_Project2_Data_Pipeline.png)
